@@ -10,7 +10,7 @@ The SDK mods I've made for Willow2 Games. Requirements are only listed if any ex
 ## Tags: cheat
   ### Features
   - Customizable amounts of points able to put in skills, points COMs give, and skill points
-# Char Loader
+# Character Loader
 ## Tags: dev, lib
   ### Features:
   - Enables other mods to easily register custom characters.
