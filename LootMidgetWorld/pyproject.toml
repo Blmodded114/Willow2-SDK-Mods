@@ -1,0 +1,23 @@
+[project]
+name = "LootMidgetWorld"
+version = "1.2"
+authors = [{ name = "BlModded114" }]
+description = """
+Every container that has a loot enemy version spawns as one.
+Requires package loader by mopioid.
+Credit to mopioid for making the original text mod version before sdk mods existed.
+"""
+dependencies = [
+  "package_loader >= 1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Blmodded114/Willow2-SDK-Mods"
+Repository = "https://github.com/Blmodded114/Willow2-SDK-Mods.git"
+"Bug Tracker" = "https://github.com/Blmodded114/Willow2-SDK-Mods/issues"
+
+[tool.sdkmod]
+name = "Loot Midget World"
+supported_games = ["BL2"]
+download = "https://github.com/Blmodded114/Willow2-SDK-Mods/raw/refs/heads/main/LootMidgetWorld/LootMidgetWorld.sdkmod"
+license = { name = "MIT", url = "https://choosealicense.com/licenses/mit/" }
