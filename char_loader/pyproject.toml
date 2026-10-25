@@ -1,0 +1,18 @@
+[project]
+name = "char_loader"
+version = "1.0"
+authors = [{ name = "BlModded114" }]
+description = """
+A library to register custom characters for multiple mods at once, so each character mod doesn't need to run the same hooks to register the characters.
+"""
+
+[project.urls]
+Homepage = "https://github.com/Blmodded114/Willow2-SDK-Mods"
+Repository = "https://github.com/Blmodded114/Willow2-SDK-Mods.git"
+"Bug Tracker" = "https://github.com/Blmodded114/Willow2-SDK-Mods/issues"
+
+[tool.sdkmod]
+name = "Character Loader"
+supported_games = ["AoDK", "BL2", "TPS"]
+download = "https://github.com/Blmodded114/Willow2-SDK-Mods/raw/refs/heads/main/char_loader/char_loader.sdkmod"
+license = { name = "MIT", url = "https://choosealicense.com/licenses/mit/" }
