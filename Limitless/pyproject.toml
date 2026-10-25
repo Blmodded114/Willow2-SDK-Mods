@@ -1,0 +1,20 @@
+[project]
+name = "Limitless"
+version = "1.0"
+authors = [{ name = "BlModded114" }]
+description = """
+You can customize how many points can go into skills, and how many skill points you gain per level.
+The increased points going into skills also applies to Class Mods.
+The possibilities are almost limitless
+"""
+
+[project.urls]
+Homepage = "https://github.com/Blmodded114/Willow2-SDK-Mods"
+Repository = "https://github.com/Blmodded114/Willow2-SDK-Mods.git"
+"Bug Tracker" = "https://github.com/Blmodded114/Willow2-SDK-Mods/issues"
+
+[tool.sdkmod]
+name = "Limitless"
+supported_games = ["BL2","TPS","AoDK"]
+download = "https://github.com/Blmodded114/Willow2-SDK-Mods/raw/refs/heads/main/Limitless/Limitless.sdkmod"
+license = { name = "MIT", url = "https://choosealicense.com/licenses/mit/" }
