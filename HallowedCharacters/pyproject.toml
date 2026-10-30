@@ -1,0 +1,23 @@
+[project]
+name = "HallowedCharacters"
+version = "1.0"
+authors = [{ name = "BlModded114" }]
+description = """
+Adds some halloween themed custom playable characters to AoDK that don't replace any characters.
+"""
+dependencies = [
+  "package_loader >= 1.0",
+  "command_extensions >= 5",
+  "char_loader >= 1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Blmodded114/Willow2-SDK-Mods"
+Repository = "https://github.com/Blmodded114/Willow2-SDK-Mods.git"
+"Bug Tracker" = "https://github.com/Blmodded114/Willow2-SDK-Mods/issues"
+
+[tool.sdkmod]
+name = "Hallowed Characters"
+supported_games = ["AoDK", "BL2"]
+download = "https://github.com/Blmodded114/Willow2-SDK-Mods/raw/refs/heads/main/HallowedCharacters/HallowedCharacters.zip"
+license = { name = "MIT", url = "https://choosealicense.com/licenses/mit/" }
