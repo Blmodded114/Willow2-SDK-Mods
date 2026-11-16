@@ -1,6 +1,6 @@
 [project]
 name = "Limitless"
-version = "1.0"
+version = "1.1"
 authors = [{ name = "BlModded114" }]
 description = """
 You can customize how many points can go into skills, and how many skill points you gain per level.
